@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Homepage</title>
+    <title>River North Meeting Place</title>
     <meta name="description" content="Coworking Space Homepage">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <link rel="stylesheet" href="css/normalize.css"><!-- CSS reset: http://necolas.github.io/normalize.css/ -->
     <link rel="stylesheet" href="css/style.css"><!-- Our site's stylesheet -->
@@ -15,12 +16,36 @@
     <!-- YOUR MARKUP GOES HERE! -->
     <div class="container">
     
-      <header>
-        <h1>Coworking Space Name</h1>
+      <header class="clearfix">
+      <h1>River North Meeting Place</h1>
+        <nav>
+          <div>About</div>
+          <div>Book Space</div>
+          <div>FAQs</div>
+          <div>Contact</div>  
+        </nav>
+        <ul class="hamburger clearfix">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </header>
 
       <main>
-        <p>Welcome to this awesome new website!</p>
+        <div class="slider">
+            <img id="current-image" src="images/main-room-1.jpg">
+              <span class="prev">&laquo;</span>
+              <span class="next">&raquo;</span>
+        </div>
+          <p>Lorem ipsum dolor sit amet, ligula ligula sed, veniam proin pellentesque vel sed elit, faucibus ut condimentum in, vitae metus congue. A quis, accumsan faucibus quis pede. Donec integer sociosqu, vitae nam amet, tortor ligula, nec ante suspendisse eu, ligula tempor nec vestibulum sit auctor aptent.
+          </p>
+
+        <div class="events clearfix">
+          <div>Event Space</div>
+          <div>Conference Rooms</div>
+          <div>Education Events</div>
+        </div>
       </main>
 
       <footer>
