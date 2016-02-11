@@ -222,7 +222,23 @@ footer h1 {
 }
 
 footer div {
-  width: 100%;
+  display: inline-block;
+  float: left;
+}
+
+div .social {
+  float: right;
+  padding: 4px; 
+  margin: 3px; 
+}
+
+footer img {
+  width: 75px;
+  height: 75px; 
+}
+
+footer img:hover {
+  opacity: .7; 
 }
 
 /******************************************
