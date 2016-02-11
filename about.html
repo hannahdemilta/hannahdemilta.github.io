@@ -2,12 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>About Us</title>
-    <meta name="description" content="About Us">
+    <title>About</title>
+    <meta name="description" content="About Us Homepage">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <link rel="stylesheet" href="css/normalize.css"><!-- CSS reset: http://necolas.github.io/normalize.css/ -->
     <link rel="stylesheet" href="css/style.css"><!-- Our site's stylesheet -->
-
+    <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'><!-- Google Font -->
     <link rel="shortcut icon" type="image/ico" href="images/favicon.png"><!-- the favicon -->
   </head>
   <body>
@@ -15,16 +16,28 @@
     <!-- YOUR MARKUP GOES HERE! -->
     <div class="container">
     
-      <header>
-        <h1>Coworking Space Name - About Us</h1>
+      <header class="clearfix">
+      <h1><a href="index.html">River North Meeting Place</a></h1>
+        <nav>
+          <div class="button"><a href="contact.html">Contact</a></div>
+          <div class="button"><a href="faq.html">FAQs</a></div>
+          <div class="button"><a href="bookings.html">Book Space</a></div>
+          <div class="button"><a href="about.html">About</a></div>
+  
+        </nav>
+        <ul class="hamburger clearfix">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </header>
 
       <main>
-        <p>Welcome to this awesome new website!</p>
       </main>
 
       <footer>
-        <p>The Education Abroad Network</p>
+        <img src="images/tean-logo.jpg" alt="TEAN logo">
       </footer>
 
     </div><!-- Container -->

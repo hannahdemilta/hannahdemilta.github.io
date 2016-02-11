@@ -34,6 +34,11 @@ body {
   background: white;
 }
 
+main {
+  padding: 10px; 
+  margin-bottom: 20px; 
+}
+
 
 /******************************************
 /* HEADER 
@@ -66,6 +71,11 @@ nav div {
 
 nav {
   float: right; 
+}
+
+nav a {
+  text-decoration: none; 
+  color: white; 
 }
 
 header {
@@ -103,6 +113,10 @@ header {
   color: black;
 }
 
+.button:hover a {
+  color: black; 
+}
+
 
 /******************************************
 /* MAIN 
@@ -116,6 +130,10 @@ header {
   text-align: center; 
   color: white; 
   background-color: black;
+}
+
+.events img:hover {
+  opacity: .8;
 }
 
 .events img {
@@ -152,6 +170,7 @@ header {
   position: relative;
   display: block;
   overflow: hidden;
+  width: 100%;
 }
 
 .next {
@@ -184,6 +203,27 @@ header {
 /* FOOTER 
 /*******************************************/
 
+footer {
+  height: 200px; 
+  padding: 20px; 
+  border-top: solid;
+  background-color: black;
+}
+
+footer p {
+  color: white;
+}
+
+footer h1 {
+  color: white; 
+  font-size: 15px; 
+  font-family: 'Candal', sans-serif;
+
+}
+
+footer div {
+  width: 100%;
+}
 
 /******************************************
 /* RESPONSIVE 
