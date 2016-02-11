@@ -2,12 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Bookings</title>
-    <meta name="description" content="Book Space">
+    <title>About</title>
+    <meta name="description" content="About Us Homepage">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <link rel="stylesheet" href="css/normalize.css"><!-- CSS reset: http://necolas.github.io/normalize.css/ -->
     <link rel="stylesheet" href="css/style.css"><!-- Our site's stylesheet -->
-
+    <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'><!-- Google Font -->
     <link rel="shortcut icon" type="image/ico" href="images/favicon.png"><!-- the favicon -->
   </head>
   <body>
@@ -15,17 +16,82 @@
     <!-- YOUR MARKUP GOES HERE! -->
     <div class="container">
     
-      <header>
-        <h1>Coworking Space Name - Bookings</h1>
+      <header class="clearfix">
+      <h1><a href="index.html">River North Meeting Place</a></h1>
+        <nav>
+          <div class="button"><a href="contact.html">Contact</a></div>
+          <div class="button"><a href="faq.html">FAQs</a></div>
+          <div class="button"><a href="bookings.html">Book Space</a></div>
+          <div class="button"><a href="about.html">About</a></div>
+  
+        </nav>
+        <ul class="hamburger clearfix">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </header>
 
       <main>
-        <p>Welcome to this awesome new website!</p>
+      
+      <div class="pricing-table clearfix">
+        <div class="option-1"> 
+          <h3 class="name">Event Space</h3>
+          <h4 class="price">$100<span>/hour</span></h4>
+          <ul class="details">
+              <li><strong>Hosts:</strong> Up to 60 people</li>
+              <li><strong>Wifi:</strong> Included</li>
+              <li><strong>Availble:</strong> Daily, 8:30am - 11pm</li>
+            </ul>
+          <h5 class="book"><a href="#">Book Now</a></h5>
+
+      </div>
+
+        <div class="option-2">
+          <h3 class="name">Meeting Room</h3>
+          <h4 class="price">$60<span>/hour</span></h4>
+          <ul class="details">
+              <li><strong>Hosts:</strong> Up to 15 people</li>
+              <li><strong>Wifi:</strong> Included</li>
+              <li><strong>Availble:</strong> M-F, 8:30am - 5pm</li>
+            </ul>
+          <h5 class="book"><a href="#">Book Now</a></h5>
+
+        </div>
+
+      <div class="option-3">
+          <h3 class="name">Custom Booking</h3>
+          <h4 class="price">Varies</h4>
+          <ul class="details">
+              <li><strong>Hosts:</strong> Up to 60 people</li>
+              <li><strong>Wifi:</strong> Included</li>
+              <li><strong>Availble:</strong> Flexible</li>
+            </ul>
+          <h5 class="book"><a href="contact.html">Contacts Us</a></h5>
+        </div>
+      </div>
+
+      <div class="para">
+        <p>This intro paragraph says something about bookings. Lorem ipsum dolor sit amet, ligula ligula sed, veniam proin pellentesque vel sed elit, faucibus ut condimentum in, vitae metus congue. A quis, accumsan faucibus quis pede. Donec integer sociosqu, vitae nam amet, tortor ligula, nec ante suspendisse eu, ligula tempor nec vestibulum sit auctor aptent. 
+        </p>
+      </div>
+
       </main>
 
-      <footer>
-        <p>The Education Abroad Network</p>
-      </footer>
+      <footer class="clearfix">
+        <div><h1>
+          The River North Meeting Place</h1>
+          <p>505 N LaSalle, Suite 250<br>
+          Chicago, IL 60654</p>
+          <p>312.239.3710<br>
+            events@teanabroad.org</p>
+        </div>
+        <div class="social"><a href="https://twitter.com"><img src="images/twitter.png"></a></div>
+        <div class="social"><a href="https://facebook.com"><img src="images/facebook.png"></a></div>
+        <div class="social"><a href="https://instagram.com"><img src="images/instagram.png"></a></div>
+
+        </footer>
 
     </div><!-- Container -->
     

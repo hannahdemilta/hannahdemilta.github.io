@@ -242,8 +242,109 @@ footer img:hover {
   opacity: .7; 
 }
 
+
+/******************************************
+/* ABOUT PAGE  
+/*******************************************/
+
+div.elephant img  {
+  padding-top: 8%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/******************************************
+/* BOOKINGS PAGE  
+/*******************************************/
+
+.pricing-table {
+  margin: 10px; 
+  padding-top: 8%;
+}
+
+.pricing-table div {
+  border: solid 1px #B3B9C4;
+  float: left;
+  width: 30%;
+  margin-left: 2%; 
+  text-align: center; 
+}
+
+.pricing-table li {
+  list-style-type: none;
+  border-bottom: 1px solid #B3B9C4;
+  padding: 15px;
+}
+
+.details li {
+  margin: 3px; 
+}
+
+.book {
+  width: 130px; 
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid transparent;
+  outline: none;
+  background-color: #75AA38;
+  padding: 20px;
+  border-radius: 4px;
+  transition: background-color .3s ease-in;
+}
+
+.book:hover {
+  background-color: #FFFFFF;
+  border-color: #75AA38; 
+  color: black;
+}
+
+.book a {
+  text-decoration: none; 
+  color: white;
+}
+
+.book:hover a {
+  color: black; 
+}
+
+
+/******************************************
+/* FAQ PAGE  
+/*******************************************/
+
+
+/******************************************
+/* CONTACT PAGE  
+/*******************************************/
+
+
 /******************************************
 /* RESPONSIVE 
 /*******************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
