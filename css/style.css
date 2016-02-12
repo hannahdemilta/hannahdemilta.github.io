@@ -263,6 +263,13 @@ div.elephant img  {
   padding-top: 8%;
 }
 
+.pricing-table div:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+
 .pricing-table div {
   border: solid 1px #B3B9C4;
   float: left;
