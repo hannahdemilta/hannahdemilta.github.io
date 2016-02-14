@@ -369,12 +369,13 @@ h4.price {
 .faq dt {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px; 
-  padding: 4px; 
+  padding: 6px; 
 }
 
 .faq dd {
   font-family: 'Neuton', serif;
-  padding: 4px; 
+  padding: 6px; 
+  font-size: 20px;
 }
 
 /******************************************
@@ -435,7 +436,6 @@ h4.price {
   padding: 5%;
   width: 60%;
   border-radius: 5px;
-  display: inline-block;
 }
 
 /******************************************
