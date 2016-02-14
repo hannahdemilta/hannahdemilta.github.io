@@ -36,9 +36,19 @@
         </ul>
       </header>
       <main>
-
-      
-
+        <div class="contact-form clearfix">
+        <div class="left">
+          <form action="//formspree.io/hannah.demilta@teanabroad.org" method="POST" data-parsley-validate>
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" placeholder="Name" required="true" data-parsley-error-message="Please include your name.">
+            <label id="email" for="email">Email:</label>
+            <input type="email" name="_replyto" placeholder="Email" required="true" data-parsley-type="email" data-parsley-error-message="Please include a valid email, please!">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" cols="30" rows="10"></textarea>
+            <input type="hidden" name="_next" value="/thanks.html" />
+            <input type="submit" value="Send">
+          </form>
+        </div>
       </main>
 
       <footer class="clearfix">
