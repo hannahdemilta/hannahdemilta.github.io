@@ -1,6 +1,6 @@
 // Slideshow of images 
 
-var images = ["main-room-1.jpg", "main-room-2.jpg", "main-room-3.jpg"]
+var images = ["homepage-1.jpg", "homepage-2.jpg", "homepage-3.jpg", "homepage-4.jpg", "homepage-5.jpg"]
 var currentImage = 0; 
 
 
@@ -32,6 +32,7 @@ function updateImage() {
 
 
 // Photo gallery of event space and rooms 
+// Thank you Mark Glissmann on codepen for this help! 
 
 
 var $overlay = $('<div class="overlay"></div>');
