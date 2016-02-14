@@ -31,4 +31,30 @@ function updateImage() {
 }
 
 
-//Hamburger menu pop out 
+// Photo gallery of event space and rooms 
+
+
+var $overlay = $('<div class="overlay"></div>');
+var $image = $("<img>");
+
+//An image to overlay
+$overlay.append($image);
+
+//Add overlay
+$(".photo-gallery").append($overlay);
+
+  //click the image and a scaled version of the full size image will appear
+  $(".photo-gallery a").click( function(event) {
+    event.preventDefault();
+    var imageLocation = $(this).attr("href");
+
+    //update overlay with the image linked in the link
+    $image.attr("src", imageLocation);
+
+    //show the overlay
+    $overlay.show();
+  } );
+
+  $(".overlay").click(function() {
+    $( ".overlay" ).hide();
+  });
