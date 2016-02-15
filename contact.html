@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>River North Meeting Place</title>
-    <meta name="description" content="Coworking Space Homepage">
+    <title>Contact Us</title>
+    <meta name="description" content="Contact Us">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <link rel="stylesheet" href="css/normalize.css"><!-- CSS reset: http://necolas.github.io/normalize.css/ -->
@@ -43,6 +43,8 @@
             <input id="name" type="text" name="name" placeholder="Name" required="true" data-parsley-error-message="Please include your name.">
             <label id="email" for="email">Email:</label>
             <input type="email" name="_replyto" placeholder="Email" required="true" data-parsley-type="email" data-parsley-error-message="Please include a valid email, please!">
+            <label for="number">Phone Number:</label>
+            <input id="number" type="tel" name="usrtel" placeholder="Phone Number" required="true" data-parsley-type="phone" data-parsley-error-message="Please include your phone number">
             <label for="message">Message:</label>
             <textarea id="message" name="message" cols="30" rows="10"></textarea>
             <input type="hidden" name="_next" value="/thanks.html" />
