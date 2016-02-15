@@ -509,6 +509,16 @@ input[type=submit]:hover {
   list-style: none;
 }
 
+/* Thank you confirmation */
+
+.thank-you {
+  padding: 15%; 
+  width: 100%;
+  margin: 0 auto; 
+  font-size: 30px; 
+  font-family: 'Neuton', serif;
+}
+
 
 /******************************************
 /* RESPONSIVE 
