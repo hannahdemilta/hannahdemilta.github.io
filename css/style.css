@@ -604,7 +604,7 @@ input[type=submit]:hover {
 
 }
 
-@media screen and (max-width:330px) {
+@media screen and (max-width:380px) {
   header {
     height: 170px; 
   }
