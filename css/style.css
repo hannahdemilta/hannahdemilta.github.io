@@ -597,16 +597,18 @@ input[type=submit]:hover {
 }
 
 
-@media screen and (max-width:512px) {
+@media screen and (max-width:835px) {
 .events div {
   float: none;
   margin: 10px; 
   margin: auto;
-  min-width: 375px; 
+  width: 100%; 
+  margin-bottom: 2%;
 }
 
 .para p {
   margin: auto;
+  width: 100%; 
 }
 
 
