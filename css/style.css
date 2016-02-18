@@ -51,6 +51,7 @@ header div {
 header h1 {
   display: inline-block;
   color: white; 
+  width: 55%; 
 }
 
 header h1 a {
@@ -81,7 +82,7 @@ nav a {
 header {
   background-color: black; 
   color: white; 
-  position: fixed; 
+  position: relative; 
   z-index: 20; 
   width: 100%; 
   padding: 20px; 
@@ -236,6 +237,7 @@ footer h1 {
   color: white; 
   font-size: 15px; 
   font-family: 'Candal', sans-serif;
+  width: 60%; 
 
 }
 
@@ -265,11 +267,13 @@ footer img:hover {
 /*******************************************/
 
 div.elephant img  {
-  padding-top: 8%;
+  width: 70%; 
+  padding: 2%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 
 /******************************************
 /* BOOKINGS PAGE  
@@ -277,7 +281,7 @@ div.elephant img  {
 
 .pricing-table {
   margin: 10px; 
-  padding-top: 8%;
+  padding-top: 2%;
   padding-right: 6%;
   padding-left: 14%;
 }
@@ -373,8 +377,8 @@ h4.price {
 /*******************************************/
 
 .faq {
-  padding-top: 8%;
-  width: 60%; 
+  padding-top: 2%;
+  width: 70%; 
   margin: 0 auto;
 }
 
@@ -394,6 +398,10 @@ h4.price {
 /* IMAGE GALLERY   
 /*******************************************/
 
+.slider img {
+  max-width: 100%;
+}
+
 .photo-gallery img {
   width: 33%;
   float: left;
@@ -404,7 +412,7 @@ h4.price {
 .photo-gallery {
   position: relative;
   width: 100%; 
-  padding-top: 7%;
+  padding-top: 2%;
   margin: 0;
 }
 
@@ -463,7 +471,7 @@ h4.price {
   margin: 0 auto;
   padding: 0 20px;
   max-width: 800px;
-  padding-top: 8%;
+  padding-top: 2%;
 }
 
 form {
@@ -540,7 +548,7 @@ input[type=submit]:hover {
 /* RESPONSIVE 
 /*******************************************/
 
-@media screen and (max-width:1110px) {
+@media screen and (max-width:1250px) {
   .hamburger {
     display: block;
   }
@@ -570,15 +578,33 @@ input[type=submit]:hover {
     top: 140px; 
   }
 
- header {
-    height: 150px; 
- }
-
  nav.active {
     margin: auto; 
  }
 
 }
+
+@media screen and (max-width:900px) {
+  header h1 {
+    font-size: 27px;
+  }
+
+}
+
+@media screen and (max-width:358px) {
+  header h1 {
+    font-size: 20px; 
+  }
+}
+
+
+@media screen and (max-width:765px) {
+  header {
+    height: 150px; 
+  }
+
+}
+
 
 @media screen and (max-width:512px) {
 .events div {
@@ -589,7 +615,6 @@ input[type=submit]:hover {
 }
 
 .para p {
-  min-width: 380px; 
   margin: auto;
 }
 
@@ -599,13 +624,21 @@ input[type=submit]:hover {
 @media screen and (max-width:1185px) {
 .pricing-table div {
   float: none;
-  width: 40%; 
   margin: 0 auto;
-  max-height: 300px; 
+  min-width: 320px;
+}
+
+.pricing-table {
+  margin: 10px;
+  padding-top: 150px;
+  padding-right: 2%;
+  padding-left: 2%;
 }
 
 
 }
+
+
 
 
 
