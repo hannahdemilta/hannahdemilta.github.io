@@ -626,14 +626,18 @@ input[type=submit]:hover {
   float: none;
   margin: 0 auto;
   min-width: 320px;
+  margin-bottom: 2%; 
 }
 
 .pricing-table {
   margin: 10px;
-  padding-top: 150px;
+  padding-top: 8%;
   padding-right: 2%;
   padding-left: 2%;
 }
+
+.pricing-table div:first-of-type {
+    margin-left: auto;
 
 
 }
