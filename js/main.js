@@ -1,3 +1,9 @@
+//Hamburger toggle 
+
+$('.hamburger').on('click', function() {
+  $('nav').toggleClass('active');
+});
+
 // Slideshow of images 
 
 var images = ["homepage-1.jpg", "homepage-2.jpg", "homepage-3.jpg", "homepage-4.jpg", "homepage-5.jpg"]

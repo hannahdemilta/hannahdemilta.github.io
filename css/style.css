@@ -89,13 +89,24 @@ header {
 }
 
 .hamburger {
-	margin: 0;
-  width: 60px;
+  margin: 25px 0;
+  width: 90px;
   height: 20px;
-  float: right;
-  padding: 11px 0 0 0;
-  border: 1px solid black;
   display: none; 
+  float: right;
+  cursor: pointer;
+}
+
+
+.hamburger li {
+  border: 1px solid white;
+  list-style-type: none; 
+  padding: 3px; 
+  height:7px;
+  width:60%;
+  margin:5px auto;
+  border-radius:5px;
+  margin: 2%;
 }
 
 .button {
@@ -201,6 +212,7 @@ header {
   font-size: 6em;
   margin-top: -.75em;
   opacity: .3;
+  cursor: pointer; 
 }
 
 
@@ -400,6 +412,10 @@ h4.price {
   width: 100%; 
 }
 
+.overlay img {
+  float: none;
+}
+
 /******************************************
 /* EVENT & CONF PAGES  
 /*******************************************/
@@ -524,6 +540,72 @@ input[type=submit]:hover {
 /* RESPONSIVE 
 /*******************************************/
 
+@media screen and (max-width:1110px) {
+  .hamburger {
+    display: block;
+  }
+
+  nav {
+    left: 0;
+    top: 90px;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    background-color: black; 
+  }
+
+  nav.active {
+    max-height: 200px;
+  }
+
+  .button {
+    margin: 1%; 
+  }
+
+}
+
+@media screen and (max-width:600px) {
+  nav  {
+    top: 140px; 
+  }
+
+ header {
+    height: 150px; 
+ }
+
+ nav.active {
+    margin: auto; 
+ }
+
+}
+
+@media screen and (max-width:512px) {
+.events div {
+  float: none;
+  margin: 10px; 
+  margin: auto;
+  min-width: 375px; 
+}
+
+.para p {
+  min-width: 380px; 
+  margin: auto;
+}
+
+
+}
+
+@media screen and (max-width:1185px) {
+.pricing-table div {
+  float: none;
+  width: 40%; 
+  margin: 0 auto;
+  max-height: 300px; 
+}
+
+
+}
 
 
 
