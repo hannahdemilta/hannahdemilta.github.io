@@ -222,7 +222,7 @@ header {
 /*******************************************/
 
 footer {
-  height: 200px; 
+  height: auto; 
   padding: 20px; 
   border-top: solid;
   background-color: black;
@@ -633,6 +633,17 @@ input[type=submit]:hover {
 .pricing-table div:first-of-type {
     margin-left: auto;
 
+
+}
+
+@media screen and (max-width: 565px) {
+  footer .contact {
+    width: 100%;  
+  }
+
+  div.social {
+    float: left;
+  }
 
 }
 
